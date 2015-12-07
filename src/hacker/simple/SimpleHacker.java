@@ -56,7 +56,6 @@ public class SimpleHacker {
 		for (int i = 0; i < compareLength; i++) {
 			if (s1.toUpperCase().charAt(i) == s2.toUpperCase().charAt(i)) {
 				s++;
-				// System.out.println(s + "is the val of s");
 			}
 		}
 		return s;
@@ -97,7 +96,6 @@ public class SimpleHacker {
 				Console.keyboard.next();
 			}
 		}
-
 		return f;
 	}
 
@@ -106,7 +104,7 @@ public class SimpleHacker {
 			markWords(getFeedback());
 
 		}
-		System.out.println("hacking done");
+		System.out.println("\nhacking done");
 		if (!displayedWords.isEmpty()) {
 			listWords();
 		}

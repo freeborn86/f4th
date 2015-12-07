@@ -6,12 +6,6 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Console {
-
-	/*
-	 * ??? InputStreamReader in=new InputStreamReader(System.in); BufferedReader
-	 * br=new BufferedReader(in); String a=br.readLine();
-	 */
-
 	public static Scanner keyboard = new Scanner(System.in);
 	public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -19,7 +13,6 @@ public class Console {
 		System.out.println("Welcome to my simple Fallout4 terminal hack hinting app\n\n"
 				+ "Please input the words seen on the ingame terminal\n" + "Press Enter after each word!\n"
 				+ "Press Enter twice after the last word to finish the input");
-		//keyboard = new Scanner(System.in);
 		SimpleHacker sh = new SimpleHacker();
 		String curr = Console.readUpperFromKeyboard();
 		while (!curr.equals("")) {
@@ -31,8 +24,8 @@ public class Console {
 		return sh;
 	}
 
-	//reading from the keyboard and returning an Uppercase string
-	public static String readUpperFromKeyboard() throws IOException {	
+	// reading from the keyboard and returning an Uppercase string
+	public static String readUpperFromKeyboard() throws IOException {
 		String s = br.readLine().toUpperCase();
 		return s;
 	}
