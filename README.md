@@ -24,6 +24,6 @@ Likeliness is an integer measure of char-by-char exact similarity of a proposed 
 
 If the password is: FOOBAR, (length = 6)
 Then the similarity of the following words are:
-FOOBAR 6
-RFOOBA 1
-BOOFAR 4
+* FOOBAR 6
+* RFOOBA 1
+* BOOFAR 4
