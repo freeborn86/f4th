@@ -16,7 +16,7 @@ Every time the user guess fails the user gets a feedback. The user has 4 guesses
 
 Notes
 -----
-* Based on my experience the in-game task is so simple that it can always be solved by correctly understanding what "Likeliness" is. This is what my app does
+Based on my experience the in-game task is so simple that it can always be solved by correctly understanding what "Likeliness" is. This is what my app does
 
 Likeliness
 ----------
