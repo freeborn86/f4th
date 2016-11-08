@@ -11,7 +11,7 @@ Every time the user guess fails the user gets a feedback. The user has 4 guesses
 * User has to input all potential passwords to this console app from Fallout 4
 * If all potential passwords are entered in this app the user can start guessing by pressing ENTER on an empty input
 * The games provides a feedback in the form of a "Likeliness"  for each failed guess
-* This feedback is a number from 0 -> word length-1
+* This feedback is a number from 0 -> password length-1
 * This app uses this feedback provided by the game to cross out passwords that cannot be the solution
 
 Notes
