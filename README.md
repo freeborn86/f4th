@@ -27,3 +27,4 @@ Then the similarity of the following words are:
 * FOOBAR 6
 * RFOOBA 1
 * BOOFAR 4
+git push test
