@@ -1,6 +1,6 @@
 Fallout 4 terminal hacking helper
 =================================
-Fallout 4 is an action role-playing video game developed by Bethesda Game Studios
+Fallout 4 is an action role-playing video game developed by Bethesda Game Studios.
 This little console Java app helps with an ingame task "hacking" terminals.
 
 Description
